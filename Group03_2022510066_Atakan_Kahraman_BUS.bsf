@@ -1,0 +1,267 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 336 464)
+	(text "Group03_2022510066_Atakan_Kahraman_BUS" (rect 5 0 276 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 432 25 444)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "clock" (rect 21 27 50 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "clock_memory" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "clock_memory" (rect 21 43 102 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "readCode" (rect 0 0 55 14)(font "Arial" (font_size 8)))
+		(text "readCode" (rect 21 59 76 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "WriteDataMem" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "WriteDataMem" (rect 21 75 102 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "muxAsel[1..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "muxAsel[1..0]" (rect 21 91 98 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "ReadDataMem" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "ReadDataMem" (rect 21 107 102 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "newRegDataEnable" (rect 0 0 112 14)(font "Arial" (font_size 8)))
+		(text "newRegDataEnable" (rect 21 123 133 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "newData[3..0]" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "newData[3..0]" (rect 21 139 101 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "newMemDataEnable" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "newMemDataEnable" (rect 21 155 136 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "aluSel[3..0]" (rect 0 0 62 14)(font "Arial" (font_size 8)))
+		(text "aluSel[3..0]" (rect 21 171 83 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "inputLD" (rect 0 0 42 14)(font "Arial" (font_size 8)))
+		(text "inputLD" (rect 21 187 63 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "Input_Reg[3..0]" (rect 0 0 84 14)(font "Arial" (font_size 8)))
+		(text "Input_Reg[3..0]" (rect 21 203 105 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "programCounterCLR" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "programCounterCLR" (rect 21 219 136 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "muxBsel[1..0]" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "muxBsel[1..0]" (rect 21 235 97 249)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240)(line_width 3))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "programCounterLD" (rect 0 0 107 14)(font "Arial" (font_size 8)))
+		(text "programCounterLD" (rect 21 251 128 265)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 16 256))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "programCounterINC" (rect 0 0 110 14)(font "Arial" (font_size 8)))
+		(text "programCounterINC" (rect 21 267 131 281)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 16 272))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "programCounterAddress[4..0]" (rect 0 0 169 14)(font "Arial" (font_size 8)))
+		(text "programCounterAddress[4..0]" (rect 21 283 190 297)(font "Arial" (font_size 8)))
+		(line (pt 0 288)(pt 16 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "addressCLR" (rect 0 0 70 14)(font "Arial" (font_size 8)))
+		(text "addressCLR" (rect 21 299 91 313)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 16 304))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "addressLD" (rect 0 0 62 14)(font "Arial" (font_size 8)))
+		(text "addressLD" (rect 21 315 83 329)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 16 320))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "addressData[3..0]" (rect 0 0 101 14)(font "Arial" (font_size 8)))
+		(text "addressData[3..0]" (rect 21 331 122 345)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 16 336)(line_width 3))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "destSel[1..0]" (rect 0 0 70 14)(font "Arial" (font_size 8)))
+		(text "destSel[1..0]" (rect 21 347 91 361)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 16 352)(line_width 3))
+	)
+	(port
+		(pt 0 368)
+		(input)
+		(text "registerSourceSel[1..0]" (rect 0 0 130 14)(font "Arial" (font_size 8)))
+		(text "registerSourceSel[1..0]" (rect 21 363 151 377)(font "Arial" (font_size 8)))
+		(line (pt 0 368)(pt 16 368)(line_width 3))
+	)
+	(port
+		(pt 0 384)
+		(input)
+		(text "outputLoad" (rect 0 0 63 14)(font "Arial" (font_size 8)))
+		(text "outputLoad" (rect 21 379 84 393)(font "Arial" (font_size 8)))
+		(line (pt 0 384)(pt 16 384))
+	)
+	(port
+		(pt 0 400)
+		(input)
+		(text "regLoadEnable" (rect 0 0 84 14)(font "Arial" (font_size 8)))
+		(text "regLoadEnable" (rect 21 395 105 409)(font "Arial" (font_size 8)))
+		(line (pt 0 400)(pt 16 400))
+	)
+	(port
+		(pt 0 416)
+		(input)
+		(text "aluSource" (rect 0 0 57 14)(font "Arial" (font_size 8)))
+		(text "aluSource" (rect 21 411 78 425)(font "Arial" (font_size 8)))
+		(line (pt 0 416)(pt 16 416))
+	)
+	(port
+		(pt 320 32)
+		(output)
+		(text "code[10..0]" (rect 0 0 63 14)(font "Arial" (font_size 8)))
+		(text "code[10..0]" (rect 236 27 299 41)(font "Arial" (font_size 8)))
+		(line (pt 320 32)(pt 304 32)(line_width 3))
+	)
+	(port
+		(pt 320 48)
+		(output)
+		(text "datM[3..0]" (rect 0 0 55 14)(font "Arial" (font_size 8)))
+		(text "datM[3..0]" (rect 244 43 299 57)(font "Arial" (font_size 8)))
+		(line (pt 320 48)(pt 304 48)(line_width 3))
+	)
+	(port
+		(pt 320 64)
+		(output)
+		(text "aluR[3..0]" (rect 0 0 53 14)(font "Arial" (font_size 8)))
+		(text "aluR[3..0]" (rect 246 59 299 73)(font "Arial" (font_size 8)))
+		(line (pt 320 64)(pt 304 64)(line_width 3))
+	)
+	(port
+		(pt 320 80)
+		(output)
+		(text "carryOut" (rect 0 0 50 14)(font "Arial" (font_size 8)))
+		(text "carryOut" (rect 249 75 299 89)(font "Arial" (font_size 8)))
+		(line (pt 320 80)(pt 304 80))
+	)
+	(port
+		(pt 320 96)
+		(output)
+		(text "r0[3..0]" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "r0[3..0]" (rect 259 91 299 105)(font "Arial" (font_size 8)))
+		(line (pt 320 96)(pt 304 96)(line_width 3))
+	)
+	(port
+		(pt 320 112)
+		(output)
+		(text "r1[3..0]" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "r1[3..0]" (rect 259 107 299 121)(font "Arial" (font_size 8)))
+		(line (pt 320 112)(pt 304 112)(line_width 3))
+	)
+	(port
+		(pt 320 128)
+		(output)
+		(text "r2[3..0]" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "r2[3..0]" (rect 259 123 299 137)(font "Arial" (font_size 8)))
+		(line (pt 320 128)(pt 304 128)(line_width 3))
+	)
+	(port
+		(pt 320 144)
+		(output)
+		(text "Output_Reg[3..0]" (rect 0 0 95 14)(font "Arial" (font_size 8)))
+		(text "Output_Reg[3..0]" (rect 204 139 299 153)(font "Arial" (font_size 8)))
+		(line (pt 320 144)(pt 304 144)(line_width 3))
+	)
+	(port
+		(pt 320 160)
+		(output)
+		(text "address[3..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "address[3..0]" (rect 224 155 299 169)(font "Arial" (font_size 8)))
+		(line (pt 320 160)(pt 304 160)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 304 432))
+	)
+)
